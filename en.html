@@ -1,73 +1,127 @@
-<html lang="fr"><head>
+```html
+<html lang="fr">
+  <head>
     <meta name="color-scheme" content="light dark">
-    <style>article,div,nav{max-width:60em;margin:auto;font:110%/1.5 system-ui}article,nav{margin:4rlh auto}h1,h2{line-height:1.2;text-wrap:balance}a{color:unset;text-decoration:none;border-bottom:solid #d92}blockquote{font:italic 95%/1.4 system-ui;border-left:solid #d92;margin:2em 0;padding:0 4%}sup{font:icon}section{font-size:85%;margin:2lh 0}</style>    <title>Nicolas Magand</title>
+    <style>
+      html {
+        max-width: 60em;
+        margin: auto;
+        font: 110%/1.5 system-ui;
+        border-left:solid #d92
+      }
+
+      div {
+        columns: 2 17em;
+        column-fill: balance;
+        margin-top: 0;
+        column-gap: 2.5em;
+        margin-bottom: 2.5rlh
+      }
+
+      nav {
+        margin: 4rlh auto
+      }
+
+      h1,
+      h2 {
+        line-height: 1.2;
+        text-wrap: balance;
+        font-size: 180%;
+        column-span: all;
+      }
+
+      h2 {
+        border-bottom: 1px solid;
+        margin: 0 auto 1rlh
+      }
+
+      h3,
+      h2+p {
+        margin-top: 0
+      }
+
+      p+h2 {
+        margin: 2.5rlh auto 1rlh
+      }
+
+      a {
+        color: unset;
+        text-decoration: none;
+        border-bottom: solid 1px;
+        font-weight:bold;
+        text-transform:uppercase
+      }
+
+      section {
+        background-color: rgb(220, 220, 220, .25);
+        margin-top: 0;
+        padding: .5em
+      }
+      
+      ul {
+        margin: 0 3em 0;
+        line-height: 1.8
+      }
+    </style>
+    <title>Nicolas Magand</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="WIP">
     <link rel="canonical" href="https://cv.nicolasmagand.com">
-</head>
-
-<nav><h1>Nicolas Magand</h1>
-
-<p>Expert in content, copywriting and brand messaging</p></nav>
-<div style="columns:2 17em;column-fill:balance;margin-top:0;column-gap:2.5em">
-<h2 style="column-span:all;margin:0 auto 1rlh">Skills</h2>
-
-<p style="margin-top:0">Specialization in content marketing, social media, copywriting. Good SEO skills, good notions of HTML, CSS, Photoshop. Mastery of tools such as Mailchimp, Miro, Figma, Wordpress, Google Analytics, Wordpress, Hootsuite, Asana, Drupal, Office suite, &amp;c.</p>
-
-<p>Initial experience as a journalist at ADN Contents with over 1000 articles written, including interviews with the founders of Uber (Travis Kalanick) and LinkedIn (Allen Blue). Former tech contributor to the French edition of the Huffington Post (2011/2012).</p>
-
-<h2 style="margin:2.5rlh auto 1rlh;column-span:all">Experience</h2>
-
-<h3 style="margin-top:0">PrestaShop (remote) - October 2019 to present</h3>
-
-<p><strong>Lead content manager</strong>
-Responsible for branded content, blogs, newsletters, white papers and other
-editorial productions used by the company's marketing, sales
-software, and reputation departments (webinars, video scripts, etc.); management of multilingual, multimedia projects, including the editorial calendar.</p>
-
-<h3 style="margin-top:0">Xiaomi, Paris - September 2018 to September 2019</h3>
-
-<p><strong>Social media marketing manager</strong>
-In charge of social networks for Xiaomi France (production and adaptation of
-content), management of various campaigns and the national social
-media advertising budget. As a member of the marketing team: development of the digital
-strategy and interaction with creative production agencies.</p>
-
-<h3 style="margin-top:0">Global Editors Network, Paris - April 2015 to September 2018</h3>
-
-<p><strong>Social media &amp; engagement editor</strong>
-Production of distributed content (production of new engaging formats
-snack-type formats), event coverage (photography, video interviews, articles),
-edition of the weekly newsletter (to 12,000 journalists worldwide)
-media, technology and journalism. Press release writing, website management.</p>
-
-<h3 style="margin-top:0">Brainsonic, Paris - August 2012 to April 2015</h3>
-
-<p><strong>Social media manager (Microsoft)</strong>
-Elaboration of the B2B editorial strategy for Microsoft France, production and
-blog posts, newsletters, and publications on social networks.
-networks. Event coverage of Microsoft TechDays 2013, 2014 and 2015
-(social media, videos, photos, infographics, etc.)</p>
-
-<h2 style="margin:2.5rlh auto 1rlh">Studies</h2>
-
-<h3 style="margin-top:0">2012 - UHA, Mulhouse, France</h3>
-
-<p>Master 1 - Web Marketing &amp; Innovative Projects Management</p>
-
-<h3 style="margin-top:0">2011 - UHA, Mulhouse, France</h3>
-
-<p>Licence Pro - SEO and web marketing, writing for the web</p>
-
-<h2 style="margin:2.5rlh auto 1rlh">Miscellaneous</h2>
-
-<ul style="margin:0">
-<li>address + phone</li>
-<li>hello@nicolasmagand.com</li>
-<li>nicolasmagand.com</li>
-<li>39 years old, born in Saint-Étienne</li>
-<li>Availability: 2 to 3 months</li>
-<li>B driver's license</li>
-</ul>
-</div>
-<nav><a href="/">Version en français</a></nav>
+  </head>
+  <nav>
+    <h1>Nicolas Magand</h1>
+    <p>Content, copywriting, communication</p>
+  </nav>
+  <div>
+    <h2>Skills</h2>
+    <p><strong>Specialization in content marketing, social media, copywriting, and brand communication</strong>. Good SEO skills, good knowledge of HTML, CSS, Photoshop. Mastery of tools like Mailchimp, Figma, Wordpress, Google Analytics, Hootsuite, Asana, Drupal, Microsoft Office, &amp;c.</p>
+    <p>Initial experience as a journalist at ADN Contents with over 1000 articles written, including interviews with the founders of Uber (Travis Kalanick) and LinkedIn (Allen Blue). Former tech contributor to the French edition of the Huffington Post (2011/2012).</p>
+  </div>
+  <div>
+    <h2>Experience</h2>
+    <h3>
+      <span style="border-bottom:solid lightskyblue">PrestaShop</span> (remote)・October 2019 to present
+    </h3>
+    <p>
+      <strong>Lead content manager</strong> Responsible for brand content, blogs, newsletters, white papers, and other editorial productions used by the company's marketing, sales, software, and reputation services (webinars, video scripts, etc.); management of multilingual, multimedia projects, and notably the editorial calendar. <br>
+    </p>
+    <h3>
+      <span style="border-bottom:solid #FF6900">Xiaomi</span>, Paris・September 2018 to September 2019
+    </h3>
+    <p>
+      <strong>Social media marketing manager</strong> Responsible for social media for Xiaomi France (content production and adaptation), management of various campaigns and the national social media advertising budget. As a member of the marketing team: development of digital strategy and interactions with creative production agencies.
+    </p>
+    <h3>
+      <span style="border-bottom:solid darkturquoise">Global Editors Network</span>, Paris・April 2015 to September 2018
+    </h3>
+    <p>
+      <strong>Social media &amp; engagement editor</strong> Production of distributed content (production of new engaging formats like snack), coverage of events (photography, video interviews, articles), editing of the weekly newsletter (for 12,000 journalists worldwide), monitoring of media, technology, and journalism topics. Writing press releases, website management.
+    </p>
+    <h3>
+      <span style="border-bottom:solid mediumblue">Brainsonic</span>, Paris・August 2012 to April 2015
+    </h3>
+    <p>
+      <strong>Social media manager (Microsoft)</strong> Development of B2B editorial strategy for Microsoft France, production and publication of blog posts, newsletters, and social media posts. Event coverage of Microsoft TechDays 2013, 2014, and 2015 (social media, videos, photos, infographics, etc.)
+    </p>
+    </div>
+  <div>
+    <h2>Education</h2>
+    <h3>2012・UHA, Mulhouse, France</h3>
+    <p><strong>Master's Degree 1</strong>・Web Marketing &amp; Innovative Projects Management</p>
+    <h3>2011・UHA, Mulhouse, France</h3>
+    <p><strong>Bachelor's Degree</strong>・SEO and web marketing, web writing</p>
+    <section>
+      <ul>
+        <li>Get in touch:</li>
+        <li>hello@nicolasmagand.com</li>
+        <li>nicolasmagand.com</li>
+        <li>39 years old, born in Saint-Étienne</li>
+        <li>Availability: 2 to 3 months</li>
+        <li>Driver's License</li>
+      </ul>
+    </section>
+  </div>
+  <nav>
+    <a href="/en.html">English version</a>
+  </nav>
+```
