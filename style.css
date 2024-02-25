@@ -35,6 +35,13 @@ html {
         margin-top: 0
       }
 
+      h3+p {
+        margin-top:0}
+
+      article {
+        margin-bottom:1.75em
+      }
+        
       p+h2 {
         margin: 2.5rlh auto 1rlh
       }
