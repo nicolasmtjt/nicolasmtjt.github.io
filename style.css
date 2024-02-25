@@ -99,3 +99,6 @@ html {
         display: inline-block;
         width: 100%
       }
+
+@media (prefers-color-scheme: dark) {
+        html{-webkit-font-smoothing:antialiased}}
