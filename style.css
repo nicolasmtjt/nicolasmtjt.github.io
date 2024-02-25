@@ -62,6 +62,11 @@ html {
         font-weight:bold;
         text-transform:uppercase
       }
+      
+      a:hover {
+        border-bottom: solid #d92
+      }
+
       li {
         margin: .5em 2em
       }
