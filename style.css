@@ -39,13 +39,14 @@ html {
         margin: 2.5rlh auto 1rlh
       }
 
-      summary{   display: block;
-    font-size: 1.17em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold}
+      summary {
+        display: block;
+        font-size: 1.17em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold}
 
       a {
         color: unset;
@@ -58,20 +59,24 @@ html {
       section {
         background-color: rgb(220, 220, 220, .25);
         margin-top: 0;
-        padding: .5em;
         border-radius: 10px;
-        font-family:menlo,monospace;
+        font-family: menlo,monospace;
         border:1px dotted;
+      }
+      
+      section p {
+        margin: .5em;
+        line-height: 1.6;
+        text-align:center
+      }
+
+      details {
+        column-span:all;
+        max-width:39.5em;
+      }
+      
+      article,
+      section {
         display: inline-block;
+        width: 100%
       }
-      
-      ul {
-        margin: 0 1em;
-        line-height: 1.8
-      }
-details{column-span:all;max-width:39.5em;}
-      
-     article {
-    display: inline-block;
-    width: 100%
- }
