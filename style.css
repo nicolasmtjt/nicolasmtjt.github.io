@@ -65,7 +65,7 @@ html {
       }
       
       ul {
-        margin: 0 .5em 0 2em;
+        margin: 0 1em;
         line-height: 1.8
       }
 details{column-span:all;max-width:39.5em;}
