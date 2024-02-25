@@ -72,5 +72,5 @@ details{column-span:all;max-width:39.5em;}
       
      article,section {
     display: inline-block;
-    width: 100%;
+    width: auto;
  }
