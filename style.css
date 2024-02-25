@@ -55,6 +55,9 @@ html {
         font-weight:bold;
         text-transform:uppercase
       }
+      li {
+        margin: .5em 2em
+      }
 
       section {
         background-color: rgb(220, 220, 220, .25);
