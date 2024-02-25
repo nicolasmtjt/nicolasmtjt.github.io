@@ -61,7 +61,8 @@ html {
         padding: .5em;
         border-radius: 10px;
         font-family:menlo,monospace;
-        border:1px dotted
+        border:1px dotted;
+        display: inline-block;
       }
       
       ul {
@@ -70,7 +71,7 @@ html {
       }
 details{column-span:all;max-width:39.5em;}
       
-     article,section {
+     article {
     display: inline-block;
-    width: auto;
+    width: 100%
  }
