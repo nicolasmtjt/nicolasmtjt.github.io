@@ -75,7 +75,7 @@ html {
         background-color: rgb(220, 220, 220, .25);
         margin-top: 0;
         border-radius: 10px;
-        font-family: ui-serif,serif
+        font-family: ui-serif,serif;
         border:1px dotted;
       }
       section:hover {
